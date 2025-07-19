@@ -1,224 +1,203 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Panagiotis Karamertzanis",
+  "label": "Computational Chemist and Regulatory Scientist",
+  "image_path": "img/profile.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "panagiotis.karamertzanis@echa.europa.eu",
+    "phone": "00358 40 661 4548",
+    "location": "Helsinki, Finland"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Computational chemist and regulatory scientist at the European Chemicals Agency (ECHA) supporting the implementation of EU chemical regulations",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://pkaramertzanis.github.io",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/panagiotiskaramertzanis",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "Github",
+      "url": "https://github.com/pkaramertzanis",
       "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Medium",
+      "url": "https://medium.com/@cretanpan",
+      "svg_path": "img/Medium-Icon-White.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "European Chemicals Agency",
+      "position": "Scientific Officer",
+      "url": "https://echa.europa.eu/",
+      "start_date": "01/07/2010",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": null,
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Scientific data analysis of physicochemical, fate and (eco)toxicological properties of chemicals",
+        "Machine learning and statistical modelling of chemical data",
+        "Planning, coordination and technical implementation of substance screening and grouping for prioritising data generation and risk management"
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "Imperial College London",
+      "position": "Senior Post Doctoral Research Associate",
+      "url": "https://www.imperial.ac.uk/",
+      "start_date": "01/01/2008",
+      "end_date": "20/06/2010",
+      "summary": null,
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Computational chemistry (molecular modelling)",
+        "Developed algorithms for predicting the crystal structure of organic molecules and its properties from first principles",
+        "Teaching chemical engineering, chemistry and computing courses"
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Modelling in vitro mutagenicity using multi-task deep learning and REACH data",
+      "summary": "Under REACH, mutagenicity assessment relies on in vitro testing (gene mutation test in bacteria and/or mammalian cells, as well as chromosomal aberration or micronucleus assays in mammalian cells) followed by in vivo testing if necessary. This study explored the possibility of using the inherent correlation between these in vitro assays to create multi-task deep learning models and examine if they outperform single-task models. An extensive genotoxicity dataset with over 12,000 substances was compiled, including algorithmically curated REACH data and information from several public sources. Genotoxicity information was also retrieved from ToxValDB and literature sources to construct external (hold-out) test sets for a stringent assessment of the models’ generalized performance. A range of single-task and multi-task models were investigated from classical machine learning techniques and chemical fingerprints to deep learning methods using graphs for molecular structure representation. The best deep learning single-task model achieved a cross-validation balanced accuracy of 73–84% for the four in vitro assays and exceeded classical machine learning by 2–8%. Gene mutation detection for specific bacterial strains and metabolic activation modes exhibited balanced accuracy 82–85%, with improvements ranging from 7% to 12%. Multi-task deep learning models for specific bacterial strains and metabolic activation modes had on average 8% higher cross-validation test balanced accuracy than single-task models but were comparable when assay outcomes were aggregated. The best deep learning models for specific bacterial strains and metabolic activation modes showed external balanced accuracy of 72–78 % when there were at least 200 positives and 200 negatives. The dimensionality-reduced molecular embeddings from graph neural network models were able to distinguish positives from negatives and cluster structures that trigger known genotoxicity structural alerts. The models were also used to identify structural moieties linked to predicted negative genotoxicity in bacteria and positive genotoxicity in mammalian cells.",
+      "url": "https://doi.org/10.1021/acs.chemrestox.5c00152",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Developed multi-task deep learning models for in vitro mutagenicity prediction",
+        "Compiled a dataset of over 12,000 substances with genotoxicity information",
+        "Achieved significant improvements in prediction accuracy over classical machine learning methods"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "img/Modelling_in_vitro_mutagenicity_using_multi-task_deep_learning_and_REAC_ data.gif",
+          "caption": null
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
+      "title": "Systematic Approaches for the Encoding of Chemical Groups: A Case Study",
+      "summary": "Regulatory authorities aim to organize substances into groups to facilitate prioritization within hazard and risk assessment processes. Often, such chemical groupings are not explicitly defined by structural rules or physicochemical property information. This is largely due to how these groupings are developed, namely, a manual expert curation process, which in turn makes updating and refining groupings, as new substances are evaluated, a practical challenge. Herein, machine learning methods were leveraged to build models that could preliminarily assign substances to predefined groups. A set of 86 groupings containing 2,184 substances as published on the European Chemicals Agency (ECHA) website were mapped to the U.S. Environmental Protection Agency (EPA) Distributed Toxicity Structure Database (DSSTox) content to extract chemical and structural information. Substances were represented using Morgan fingerprints, and two machine learning approaches were used to classify test substances into 56 groups containing at least 10 substances with a structural representation in the data set: k-nearest neighbor (kNN) and random forest (RF), that led to mean 5-fold cross-validation test accuracies (average F1 scores) of 0.781 and 0.853, respectively. With a 9% improvement, the RF classifier was significantly more accurate than KNN (p-value = 0.001). The approach offers promise as a means of the initial profiling of new substances into predefined groups to facilitate prioritization efforts and streamline the assessment of new substances when earlier groupings are available. The algorithm to fit and use these models has been made available in the accompanying repository, thereby enabling both use of the produced models and refitting of these models, as new groupings become available by regulatory authorities or industry.",
+      "url": "https://doi.org/10.1021/acs.chemrestox.3c00411",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Developed machine learning models to classify substances into predefined chemical groups",
+        "Achieved significant accuracy improvements over traditional methods",
+        "Provided an algorithm for fitting and using the models, enabling future updates"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
+          "img_path": "img/Systematic_Approaches_for_the_Encoding_of_Chemical_Groups_A_Case_Study.jpeg",
+          "caption": null
         }
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "Imperial College London",
+      "location": "London, UK",
+      "url": "https://www.imperial.ac.uk/",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "PhD in Chemical Engineering"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "honors": [
+        "Armstrong medal and prize for outstanding research"
+      ],
+      "gpa_cumulative": null,
+      "gpa_major": null,
+      "graduation_date": "01/05/2004"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "von Karman Institute for Fluids Dynamics",
+      "location": "Brussels, Belgium",
+      "url": "https://www.vki.ac.be/",
+      "degrees": [
+        "MSc in Fluid Dynamics"
+      ],
+      "honors": [
+        "Honours"
+      ],
+      "gpa_cumulative": null,
+      "gpa_major": null,
+      "graduation_date": "01/06/2000"
+    },
+    {
+      "institution": "National Technical University of Athens",
+      "location": "Athens, Greece",
+      "url": "https://www.ntua.gr/en",
+      "degrees": [
+        "MEng in Chemical Engineering"
+      ],
+      "honors": [
+        "Honours"
+      ],
+      "gpa_cumulative": "9.3 (out of 10)",
+      "gpa_major": null,
+      "graduation_date": "01/06/1998"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "name": "Python",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
     },
     {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "name": "Data analysis, modelling and visualisation",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "R, Java, JavaScript, Matlab, Fortran, C/C++",
+      "proficiency": 50,
+      "proficiency_label": "Basic knowledge"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "name": "Electronics and automation",
+      "summary": "Building and programming electronic devices and automation systems",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
+          "img_path": "img/house_electronics_lab.png",
+          "caption": "AI representation of my home electronics lab"
         }
       ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
+      "name": "Gardening",
+      "summary": "Battling against nature to maintain our lawn in the Finnish climate",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
+          "img_path": "img/garden.jpg",
+          "caption": "The lawn after a ton of fertiliser and a lot of rain"
+        }
+      ]
+    },
+    {
+      "name": "Blogging",
+      "summary": "Sharing knowledge and insights on data analysis and machine learning",
+      "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
+          "img_path": "img/Medium-Icon-White.png",
+          "caption": "https://medium.com/@cretanpan"
         }
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Greek",
       "fluency": "Native speaker"
     },
     {
-      "language": "American Sign Language",
+      "language": "English",
       "fluency": "Professional Working Proficiency"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
     },
     {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "language": "German",
+      "fluency": "Elementary Proficiency"
     }
   ]
 }
