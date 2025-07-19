@@ -1,0 +1,10 @@
+[project]
+name = "2025-07-19-portfolio-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jinja2==3.1.4",
+    "markupsafe==3.0.2",
+]

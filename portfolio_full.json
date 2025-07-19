@@ -1,0 +1,225 @@
+{
+  "name": "Panagiotis Karamertzanis",
+  "label": "Computational Chemist and Regulatory Scientist",
+  "image_path": "img/profile.png",
+  "contact": {
+    "email": "panagiotis.karamertzanis@echa.europa.eu",
+    "phone": "00358 40 661 4548",
+    "location": "Helsinki, Finland"
+  },
+  "summary": "Computational chemist and regulatory scientist at the European Chemicals Agency (ECHA) supporting the implementation of EU chemical regulations",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "Personal Website",
+      "url": "https://pkaramertzanis.github.io",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/panagiotiskaramertzanis",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/pkaramertzanis",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "European Chemicals Agency",
+      "position": "Scientific Officer",
+      "url": "https://echa.europa.eu/",
+      "start_date": "01/07/2010",
+      "end_date": "Present",
+      "summary": null,
+      "highlights": [
+        "Scientific data analysis of physicochemical, fate and (eco)toxicological properties of chemicals",
+        "Machine learning and statistical modelling of chemical data",
+        "Planning, coordination and technical implementation of substance screening and grouping for prioritising data generation and risk management"
+      ]
+    },
+    {
+      "company": "Imperial College London",
+      "position": "Senior Post Doctoral Research Associate",
+      "url": "https://www.imperial.ac.uk/",
+      "start_date": "01/01/2008",
+      "end_date": "20/06/2010",
+      "summary": null,
+      "highlights": [
+        "Computational chemistry (molecular modelling)",
+        "Developed algorithms for predicting the crystal structure of organic molecules and its properties from first principles",
+        "Teaching chemical engineering, chemistry and computing courses"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "My First Project",
+      "summary": "Short summary about my first project",
+      "url": "https://sample.com",
+      "highlights": [
+        "First Highlight of Project One",
+        "Second Highlight of Project One",
+        "Third Highlight of Project One"
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=1",
+          "caption": "Image Caption 1"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=2",
+          "caption": "Image Caption 2"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=3",
+          "caption": "Image Caption 3"
+        }
+      ]
+    },
+    {
+      "title": "My Second Project",
+      "summary": "Short summary about my second project",
+      "url": "https://sample.com",
+      "highlights": [
+        "First Highlight of Project Two",
+        "Second Highlight of Project Two",
+        "Third Highlight of Project Two"
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=4",
+          "caption": "Image Caption 4"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=5",
+          "caption": "Image Caption 5"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=6",
+          "caption": "Image Caption 6"
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "Latest Organization",
+      "position": "Position One",
+      "url": "https://sample.com",
+      "start_date": "01/01/2020",
+      "end_date": "Present",
+      "summary": "Short summary about present volunteer work",
+      "highlights": [
+        "First Duty of Current Organization",
+        "Second Duty of Current Organization",
+        "Third Duty of Current Organization"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Imperial College London",
+      "location": "London, UK",
+      "url": "https://www.imperial.ac.uk/",
+      "degrees": [
+        "PhD in Chemical Engineering"
+      ],
+      "honors": ["Armstrong medal and prize for outstanding research"],
+      "gpa_cumulative": null,
+      "gpa_major": null,
+      "graduation_date": "01/05/2004"
+    },
+    {
+      "institution": "von Karman Institute for Fluids Dynamics",
+      "location": "Brussels, Belgium",
+      "url": "https://www.vki.ac.be/",
+      "degrees": ["MSc in Fluid Dynamics"],
+      "honors": ["Honours"],
+      "gpa_cumulative": null,
+      "gpa_major": null,
+      "graduation_date": "01/06/2000"
+    },
+    {
+      "institution": "National Technical University of Athens",
+      "location": "Athens, Greece",
+      "url": "https://www.ntua.gr/en",
+      "degrees": ["MEng in Chemical Engineering"],
+      "honors": ["Honours"],
+      "gpa_cumulative": "9.3 (out of 10)",
+      "gpa_major": null,
+      "graduation_date": "01/06/1998"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Data analysis, modelling and visualisation",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "R, Java, JavaScript, Matlab, Fortran, C/C++",
+      "proficiency": 50,
+      "proficiency_label": "Basic knowledge"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Electronics and automation",
+      "summary": "Building and programming electronic devices and automation systems",
+      "images": [
+        {
+          "img_path": "img/house_electronics_lab.png",
+          "caption": "AI representation of my home electronics lab"
+        }
+      ]
+    },
+    {
+      "name": "Gardening",
+      "summary": "Battling against nature to maintain our lawn in the Finnish climate",
+      "images": [
+        {
+          "img_path": "img/garden.jpg",
+          "caption": "The lawn after a ton of fertiliser and a lot of rain"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Greek",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "German",
+      "fluency": "Elementary Proficiency"
+    }
+  ],
+  "references": [
+    {
+      "name": "Person One",
+      "relation": "Previous Boss",
+      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+    },
+    {
+      "name": "Person Two",
+      "relation": "Previous Coworker",
+      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+    }
+  ]
+}
